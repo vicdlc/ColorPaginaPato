@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulo {
+            font-family: sans-serif;
+            font-size: 29px;
+            color: rgb(175, 216, 113);
+            background-color: rgb(65, 63, 63);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .contenedor-principal {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        main {
+            font-family: sans-serif;
+            font-size: 27;
+            background-color: rgb(0, 174, 255);
+            width: 400px;
+            flex-grow: 1;
+        }
+
+        aside {
+            font-family: sans-serif;
+            font-size: 27;
+            background-color: pink;
+            width: 250px;
+            flex-grow: 1;
+        }
+
+        .apartado {
+            text-align: center;
+        }
+
+        .opciones {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .Encabezados {
+            text-align: center;
+        }
+
+        .menu-principal {
+            padding: 1.5em;
+            font-family: sans-serif;
+            font-size: 20px;
+            color: black;
+            background-color: rgb(175, 216, 113);
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .abajo {
+            font-family: sans-serif;
+            font-size: 20px;
+            background-color: rgb(255, 251, 0);
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="titulo">
+            <h1> ENCABEZADO NIVEL 1 </h1>
+        </nav>
+    </header>
+    <header>
+        <nav class="menu-principal">
+            <a href="Enlace 1"> Enlace 1</a>
+            <a href="Enlace 2"> Enlace 2 </a>
+            <a href="Enlace 3"> Enlace 3</a>
+            <a href="Enlace 4"> Enlace 4 </a>
+        </nav>
+    </header>
+    <div class="contenedor-principal">
+        <main>
+            <section class="Encabezados">
+                <h2>Encabezado 2 </h2>
+                <p> Texto del primer parrafo </p>
+                <p> Texto del segundo parrafo </p>
+            </section>
+            <section class="Encabezados">
+                <h2> Encabezado 3 </h2>
+                <p> Texto del primer parrafo </p>
+            </section>
+        </main>
+        <aside>
+            <h2 class="apartado"> Apartado </h2>
+            <p class="opciones"> Elije una opcion </p>
+            <form>
+                <div>
+                    <input type="checkbox" id="Opcion 1"> <label for="Opcion 1"> Opción 1 </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Opcion 2"> <label for="Opcion 2"> Opción 2 </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Opcion 3"> <label for="Opcion 3"> Opción 3 </label>
+                </div>
+                <div>
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <nav class="abajo">
+            <p> Sección de información de contacto, derechos de autor, etc. </p>
+        </nav>
+    </footer>
+</body>
+
+</html>

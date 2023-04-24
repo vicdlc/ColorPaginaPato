@@ -1,0 +1,117 @@
+/*  hearder */
+header{
+    background-color: white;
+    font-size: 17;
+    color: black;
+    padding-top: 5px;
+}
+.logo{
+    padding-left: 5px;
+    padding-left: 290px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+.links{
+    display: flex;
+    color: rgba(0, 0, 0, 0.308);
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0.3em;
+    padding-left: 1000px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+.links a{
+    text-decoration: none;
+    margin: 12px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.imagen{
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-size: cover;
+}
+.contenedor-grid{
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    margin: auto;
+    background-position: 0px;
+    display: grid;
+    grid-template-columns: 355px 946px;
+    grid-template-rows: 55px 70px 115px 100px;
+    padding-left: 80px;
+    grid-template-areas: "aprende aprende";
+    grid-template-areas: "en escuelas";
+    grid-template-areas: ". escuelas";
+    grid-template-areas: ". cdmx";
+}
+.aprende{
+    color: white;
+    font-size: 41px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-right: 400px;
+    grid-column: 1/3;
+    font-weight: bolder;
+}
+.en{
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-bottom: 400px;
+    padding-top: 30px;
+    padding-left: 33px;
+    grid-column: 1/2;
+    align-items: start;
+    font-weight: lighter;
+    justify-self: right;
+
+}
+.escuelas{
+    color: white;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-row: 2/4;
+    grid-column: 2/3;
+    padding-top: 19px;
+    padding-right: 520px;
+    font-weight: bold;
+}
+.cdmx{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    padding-bottom: 300px;
+    grid-column: 2/4;
+    font-weight: lighter;
+    align-self: self-start;
+}
+.quien{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 800px;
+    color: rgb(177, 132, 19);
+}
+.cualquier{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(99, 98, 98, 0.932);
+    padding-left: 520px;
+}
+.menores{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgba(3, 3, 3, 0.63);
+    padding-left: 650px;
+}
